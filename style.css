@@ -30,6 +30,7 @@ body {
 
 .content {
   width: 670px;
+  height: 440px;
   display: flex;
   background-color: #f5f5f5;
   margin: auto;
@@ -40,13 +41,36 @@ body {
 .left {
   background-image: linear-gradient(#06d7c1, #50cc49);
   width: 50%;
+  color: #fff;
+  position: relative;
 }
 
-.left img {
+.shoe {
   position: absolute;
+  bottom: 0;
+  right: 5%;
+}
+.price {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
 }
 
 .right {
   background-color: #fff;
   width: 50%;
+}
+.size {
+  display: flex;
+}
+
+.size li {
+  list-style-type: none;
+  padding: 5px;
+}
+.btn {
+  background-color: #f15f42;
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
 }
