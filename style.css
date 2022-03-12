@@ -32,6 +32,9 @@ body {
   width: 670px;
   height: 440px;
   display: flex;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   background-color: #f5f5f5;
   margin: auto;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
@@ -43,6 +46,13 @@ body {
   width: 50%;
   color: #fff;
   position: relative;
+  padding: 30px;
+}
+
+.left p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 30px 0 0 0;
 }
 
 .shoe {
@@ -54,11 +64,40 @@ body {
   position: absolute;
   bottom: 0;
   right: 5%;
+  padding: 30px;
+  text-align: right;
+}
+.price div:first-of-type {
+  font-size: 28px;
+  font-weight: 500;
+}
+.price div:last-of-type {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .right {
   background-color: #fff;
   width: 50%;
+  padding: 30px;
+  position: relative;
+}
+.right h1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.right h2 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 30px;
+}
+.text {
+  margin: 0;
+  padding: 0 0 30px 0;
+  border-bottom: 2px solid #06d7c1;
 }
 .size {
   display: flex;
@@ -68,9 +107,19 @@ body {
   list-style-type: none;
   padding: 5px;
 }
+.selection {
+  color: #f15f42;
+  border: 1px solid #f15f42;
+  border-radius: 50%;
+}
 .btn {
   background-color: #f15f42;
-  padding: 5px;
-  text-decoration: none;
+  padding: 10px 20px;
   color: #fff;
+  position: absolute;
+  bottom: 30px;
+  /* left: 30px; */
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
